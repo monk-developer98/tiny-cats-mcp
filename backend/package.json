@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^2.23.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.10.1"
@@ -23,8 +24,10 @@
     "typescript": "^5.7.0"
   },
   "nodemonConfig": {
-  "exec": "tsx src/server.ts",
-  "watch": ["src"],
-  "ext": "ts"
-}
+    "exec": "tsx src/server.ts",
+    "watch": [
+      "src"
+    ],
+    "ext": "ts"
+  }
 }
