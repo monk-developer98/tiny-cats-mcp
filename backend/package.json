@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "@google/genai": "^2.23.0",
+    "@modelcontextprotocol/sdk": "^1.30.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.10.1"
